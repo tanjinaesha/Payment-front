@@ -1,0 +1,119 @@
+body {
+  background-color: black;
+  color:white; /* Set text color to white for better readability on a black background */
+}
+
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+.text-color{
+  color:skyblue;
+  width: 670px;
+  height: 101px;
+}
+.circle {
+    
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+  }
+
+  .arrow {
+    margin-top: 10px;
+    width: 30px;
+    height: auto;
+  }
+ 
+  .flex-item {
+    height: 123px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .flex-item1 {
+    height: 123px;
+   color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .row-content {
+    margin-bottom: 20px;
+  }
+  .btn-about {
+    height: 64px;
+    width: 170px;
+    background-color: aqua;
+    color: black;
+    border-radius: 30px; /* Increase the border-radius value to make it more rounded */
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+    cursor: pointer; /* Add a pointer cursor for better interaction */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* Add a subtle box-shadow */
+    transition: all 0.3s ease; /* Add smooth transition */
+}
+
+/* Add hover effect */
+.btn-about:hover {
+    background-color: #00ced1; /* Change the background color on hover */
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+/* Custom class for the circle container */
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Adjust the size of the circle */
+  height: 50px;
+  border-radius: 50%; /* Make it a perfect circle */
+  background: radial-gradient(circle,#09977C,white ); /* Add a radial gradient */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+/* Center the icons inside the circle */
+.circle-container i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Icon color */
+  font-size: 20px; 
+  /* Adjust the icon size */
+}
+.secured{
+  background-color: gray;
+  border-radius: 20px;
+
+}
+.big-cta-card {
+  border: none; /* Remove card border for a cleaner look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  height: 250px; /* Adjust the height of the big card as needed */
+}
+
+.card3 {
+  border-radius: 15px; 
+  background-color: gray;
+  color:black;
+ 
+  
+}
